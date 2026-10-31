@@ -1,0 +1,26 @@
+PLANFLOW COMPLETE APPLICATION
+
+Start here: double-click Start_PlanFlow.cmd on Windows.
+The launcher creates a Python environment and installs requirements on first run.
+Python 3.11 or newer and internet access are needed for initial setup on other laptops.
+Keep the launcher terminal open while using the application.
+
+Included
+- Python application, calculations, data generator and automated tests
+- HTML, CSS, JavaScript and locally bundled charts
+- Database SQL and CSV exports, including October–December 2026
+- UX research forms and data dictionary in docs
+- A consistent copy of the current local demo database, including existing edits
+- README with features, assumptions and MySQL connection instructions
+
+The local database copy is .local/planflow.sqlite3. It contains sample planning data.
+MySQL passwords, session keys, recovery status and installed dependencies are excluded.
+MySQL login must be entered separately on each running instance.
+Recover_MySQL scripts are laptop-specific administrator maintenance tools, not required
+to start or share the application. Do not run them on another laptop.
+
+Each member running this folder has a separate database copy. Sharing this folder
+does not create an online shared service. Avoid launching a second copy on port 8765
+while your original PlanFlow application is already running.
+
+University articles and weekly reflections are separate from this application package.
